@@ -82,7 +82,7 @@ if (showConfigOnly) {
 const configLib = Object.assign({}, config, {
     externals: [nodeExternals()],
     entry: {
-        github-app: './src/js/index.js'
+        'github-app': './src/js/index.js'
     }
 });
 
