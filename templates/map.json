@@ -1,5 +1,14 @@
 {
-    ".prettierrc": {
-        "template": ".prettierrc._"
+    ".env": {
+        "template": ".env._"
+    },
+    "src/js/index.js": {
+        "template" : "src/js/index.js._"
+    },
+    "src/js/__tests__/index.js": {
+        "template": "src/js/__tests__/index.js._"
+    },
+    "src/js/__tests__/fixtures/issues.opened.json" : {
+        "template": "src/js/__tests__/fixtures/issues.opened.json._"
     }
 }

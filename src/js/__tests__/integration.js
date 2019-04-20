@@ -14,12 +14,13 @@ describe('# integration test', () => {
     it('## should generate design and run github-app commands', () => {
         let output = execSync('npm run build').toString();
         output = execSync(
-            'sgen -g `pwd`/dist/github-app.min.js -d src/test/fixture/design.json -o testoutput'
+            'sgen -g npm -g `pwd`/dist/github-app.min.js -d src/test/fixture/design.json -o testoutput'
         ).toString();
         output = output.replace(/info: Loaded generator .*github-app.min.js.*/, '');
         expect(output).toMatchSnapshot();
         execSync('npm install', { cwd: 'testoutput', stdio: 'inherit' });
         execSync('npm run lint', { cwd: 'testoutput', stdio: 'inherit' });
         execSync('npm run build', { cwd: 'testoutput', stdio: 'inherit' });
+        execSync('npm test -- -u', { cwd: 'testoutput', stdio: 'inherit' });
     });
 });
