@@ -22,6 +22,7 @@ describe('# integration test', () => {
             'sgen -g npm -g `pwd`/dist/github-app.min.js -d src/test/fixture/design.json -o testoutput'
         ).toString();
         output = output.replace(/info: Loaded generator .*github-app.min.js.*/, '');
+        output = output.replace(/info: Loaded generator .*gen-npm.*/, '');
         output = output.replace(
             /warn: Please cherrypick changes from master-sgen-generated from .*/,
             ''
