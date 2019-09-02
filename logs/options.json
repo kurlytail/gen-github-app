@@ -7,6 +7,6 @@
     ],
     "extension": [],
     "generator": ["sgen", "log", "bst"],
-    "g": ["sgen", "log", "bst"],
-    "d": ["design.json"]
+    "options": [".sgenbot.yml"],
+    "p": [".sgenbot.yml"]
 }
