@@ -3,7 +3,7 @@
 exports[`# integration test ## should generate design and run github-app commands 1`] = `
 "
 
-info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
+info: loading map ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map templates/map.json
 info: Opening git repository testoutput/.git
 warn: Ignoring error Error: cannot stash changes - there is nothing to stash.
@@ -11,28 +11,28 @@ info: Attempting to use branch master-sgen-generated
 info: Creating new branch master-sgen-generated
 warn: Checkout branch master
 warn: Checkout branch master-sgen-generated
-info: Generated testoutput/.editorconfig from template node_modules/@kurlytail/gen-npm/templates/.editorconfig._
-info: Generated testoutput/.eslintignore from template node_modules/@kurlytail/gen-npm/templates/.eslintignore._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/babelrc._
-info: Generated testoutput/.babelrc from template node_modules/@kurlytail/gen-npm/templates/.babelrc._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/eslintrc-js._
-info: Generated testoutput/.eslintrc.js from template node_modules/@kurlytail/gen-npm/templates/.eslintrc.js._
-info: Generated testoutput/.gitignore from template node_modules/@kurlytail/gen-npm/templates/.gitignore._
-info: Generated testoutput/.npmignore from template node_modules/@kurlytail/gen-npm/templates/.npmignore._
-info: Generated testoutput/.prettierrc from template node_modules/@kurlytail/gen-npm/templates/.prettierrc._
-info: Generated testoutput/Jenkinsfile from template node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
+info: Generated testoutput/.editorconfig from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.editorconfig._
+info: Generated testoutput/.eslintignore from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.eslintignore._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/babelrc._
+info: Generated testoutput/.babelrc from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.babelrc._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/eslintrc-js._
+info: Generated testoutput/.eslintrc.js from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.eslintrc.js._
+info: Generated testoutput/.gitignore from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.gitignore._
+info: Generated testoutput/.npmignore from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.npmignore._
+info: Generated testoutput/.prettierrc from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.prettierrc._
+info: Generated testoutput/Jenkinsfile from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/Jenkinsfile._
 info: loading extension templates/extensions/package-json-github-app._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-misc._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-jest._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/package-json-babel._
-info: Generated testoutput/package.json from template node_modules/@kurlytail/gen-npm/templates/package.json._
-info: Generated testoutput/README.md from template node_modules/@kurlytail/gen-npm/templates/README.md._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config._
-info: loading extension node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config-1._
-info: Generated testoutput/webpack.config.js from template node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/package-json-misc._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/package-json-jest._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/package-json-babel._
+info: Generated testoutput/package.json from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/package.json._
+info: Generated testoutput/README.md from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/README.md._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config._
+info: loading extension ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/extensions/webpack-config-1._
+info: Generated testoutput/webpack.config.js from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/webpack.config.js._
 info: Generated testoutput/src/js/index.js from template templates/src/js/index.js._
-info: Generated testoutput/src/js/__tests__/integration.js from template node_modules/@kurlytail/gen-npm/templates/integration.js._
-info: Generated testoutput/.flowconfig from template node_modules/@kurlytail/gen-npm/templates/.flowconfig._
+info: Generated testoutput/src/js/__tests__/integration.js from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/integration.js._
+info: Generated testoutput/.flowconfig from template ../../.nvm/versions/node/v10.9.0/lib/node_modules/@kurlytail/gen-npm/templates/.flowconfig._
 info: Generated testoutput/.env from template templates/.env._
 info: Generated testoutput/src/js/__tests__/index.js from template templates/src/js/__tests__/index.js._
 info: Generated testoutput/src/js/__tests__/fixtures/issues.opened.json from template templates/src/js/__tests__/fixtures/issues.opened.json._
@@ -43,19 +43,5 @@ warn: Generator branch master-sgen-generated was modified
 
 
 info: sgen is done
-"
-`;
-
-exports[`# integration test ## should print help options 1`] = `
-"Usage:
-  node sgen [OPTION]
-
-Options:
-  -m, --map=ARG+       mapping files
-  -d, --design=ARG+    design files
-  -e, --extension=ARG+ extension directories or files
-  -o, --output=ARG     output directory for generated files
-  -g, --generator=ARG+ generators to be used
-  -h, --help           display this help
 "
 `;
