@@ -1,7 +1,7 @@
 {
     "name": "@kurlytail/gen-github-app",
     "description": "GITHUB-APP project generator",
-    "version": "1.3.208",
+    "version": "1.3.209",
     "main": "dist/github-app.min.js",
     "devDependencies": {
         "@babel/cli": "7.7.4",
