@@ -70,7 +70,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-npm": "1.3.231",
+        "@kurlytail/gen-npm": "1.3.233",
         "yaml": "1.7.2"
     }
 }
